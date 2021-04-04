@@ -2,14 +2,6 @@
 
 MASS is an open-source python package that provides a framework of Multi-Agent Spatial Synthesis and is built on top of [topoGenesis](https://topogenesis.readthedocs.io/). 
 
-## Vision
-
-## Structure
-
-
-## Installation
-
-
 
 ## Genesis Lab: Laboratory of Generative Systems and Sciences
 

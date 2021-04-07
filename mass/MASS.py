@@ -83,7 +83,7 @@ class environment():
             bounds.append(l.bounds.flatten())
             mins.append(l.min())
             maxs.append(l.max())
-        # access lattice names in self.lattice_names --> Bahar: what is this?
+        # access lattice names in self.lattice_names --> Q: what is this?
 
         shape_check = np.all(np.array(shapes) == self.shape)
         bound_check = np.all(np.array(bounds) == self.bounds.flatten())
@@ -157,7 +157,7 @@ class agent():
 
     @property
     def satisfaction(self):
-        # Bahar: I guess we have a problem here!
+        # Q: I guess we have a problem here!
         return np.mean(self.eval_lat[self.occ_lattice])
 
     @property
